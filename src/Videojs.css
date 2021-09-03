@@ -1,0 +1,34 @@
+.video-js{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:10px;
+}
+
+.vjs-poster{
+    border-radius: 10px;
+}
+
+.video-js .vjs-big-play-button{
+    opacity: 0.5;
+    border-radius: 80%;
+}
+h1{
+    text-align: left!important;
+}
+.vc{
+    width: 500px;
+    height: 300px;
+
+}
+.vcheading{
+    font-size: 22px;
+    margin-bottom: 22px;
+}
+@media only screen and (max-width: 600px) {
+    .vc{
+        width: 100%;
+        font-size: 12px;
+        margin: 12px;
+    }
+}
